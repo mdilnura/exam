@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Filters from "../components/Filters";
-import { useDatabase } from "../hooks/UseDatabase";
+import { useDatabase } from "../hooks/UseData";
 import RecipesCard from "../components/RecipesCard";
 import "./Recipes.css";
 

@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
-import { useDatabase } from "../hooks/UseDatabase";
+import { useDatabase } from "../hooks/UseData";
 import RecipesCard from "../components/RecipesCard";
 import "./Recipe.css";
 function Recipe() {
