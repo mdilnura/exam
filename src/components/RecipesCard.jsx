@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useDatabase } from "../hooks/UseDatabase";
+import { useDatabase } from "../hooks/UseData";
 import "../components/button.css";
 import "./RecipesCard.css";
 function RecipesCard({ recipe }) {
